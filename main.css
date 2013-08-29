@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font: "times new roman", times, serif;
+	text-size: 14px;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	line-height: 130%;
+}
+
+.container {
+	width: 960px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #A9EDFF;
+	margin: 0;
+	padding: 0;
+}
+
+
+.sidebar1 {
+	float: left;
+	width: 180px;
+	background-color: #A9EDFF;
+	padding-bottom: 10px;
+	height: 100%;
+	min-height: 100%;
+}
+
+li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:	14px;
+	font-weight: bold;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:32px;
+	color: #666666;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+h2 {
+	font-family: arial, helvetica, sans-serif;
+	font-size:16px;
+	color: #EC7F40;
+}
+
+p {
+	color: #666666;
+	font-size: 14px;
+}
+
+a:link {
+	color: #666666;
+	text-decoration: none; 
+}
+a:visited {
+	color: #EC7F40;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+	background-color: #B3B3B3;
+}
+
+li.selected {
+	background-color: #ffffff !important;
+}
+
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+}
+
+ul.nav a:visited {
+	color: #EC7F40;
+}
+
+div.sidebar1 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background-color: #B3B3B3;
+	color: #FFF;
+}
+
+.content {
+	width: 780px;
+	float: left;
+	margin: 0 auto 0 auto;
+}
+
+.content_block {
+	width: 200px;
+	float: left;
+	text-align: left;
+}
+
+.content_left {
+	margin-left: 45px;
+}
+
+.content_center {
+	margin: 0 45px 0 45px;
+}
+
+.content_right {
+	margin-right: 45px;
+}
+
+a.website_link {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #EC7F40;
+}
+
+div p.additional_info {
+	display: block;
+	width: 780px;
+	text-align: center;
+	color: #EC7F40;
+}
+
+.footer_nav li {
+	text-decoration: none;
+	display: inline;
+	padding: 0 20px 0 20px;
+	text-decoration: underline;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.footer_nav {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+p.intro_p {
+	width: 700px;
+	margin-left: 45px;
+	margin-bottom: 45px;
+}
+
+p.santorini_content {
+	width: 700px;
+	margin-left: 45px;
+	margin-bottom: 15px;
+}
+
+div.paragraph_content {
+	padding-top: 175px;
+}
+
+img.home_image {
+	float: left;
+	clear: right;
+	text-align: center;
+}
+
+div.home_content div.home_image_block {
+	width: 600px;
+	margin: 0 auto 0 auto;
+}
+
+div.home_footer, hr.home_footer{
+	width: 760 px;
+	position: relative;
+	top: 50px;
+	clear: both;
+}
+
+div.home_footer {
+	padding-bottom: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.home_content {
+	width: 780px;
+	float: left;
+	margin: 0 auto 0 auto;
+}
+
+.home_content h1 {
+	text-align: center;
+}
+
+.copyright {
+	text-align: left;
+}
+
+
+
+	
+
+
